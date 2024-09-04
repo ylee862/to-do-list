@@ -1,0 +1,29 @@
+<!--Yedam Lee-->
+<!--To-do list application created using python, html, and API-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <!--form is used to collect user's unput-->
+    <form id="memo-form">
+      <label for="memo-input">Today's plan</label>
+      <input
+        type="text"
+        id="memo-input"
+        placeholder="what do I have to do..."
+        required
+      />
+      <button id="memo-submit" type="submit">add</button>
+    </form>
+
+    <ul id="memo-ul"></ul>
+    <script src="app.js"></script>
+  </body>
+</html>

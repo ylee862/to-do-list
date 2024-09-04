@@ -1,0 +1,47 @@
+#memo-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  font-size: 100px;
+  color: palevioletred;
+}
+
+input {
+  width: 50%;
+  height: 20px;
+}
+
+button {
+  background-color: palevioletred;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+}
+
+ul {
+  list-style: inside;
+  background: palevioletred;
+  padding: 7px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul li {
+  background: rgb(255, 231, 239);
+  color: rgb(0, 0, 0);
+  margin: 3px;
+}
