@@ -63,5 +63,5 @@ def del_memo(memo_id):
     return 'there is no such memo.'
     
 
-app.mount("/", StaticFiles(directory='static', html=True), name='static')
+app.mount("/", StaticFiles(directory='to-do-list/static', html=True), name='static')
 
